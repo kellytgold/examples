@@ -32,7 +32,5 @@ You will need to give the Bulk Step 1 formula the instance ID for the second for
 
 Flowcharts describing the formulas can be found [here](Flowchart-BulkStep1.html) and [here](Flowchart-BulkStep2.html).
 
-For more information on how to use Cloud Elements, see our [developer portal](https://developers.cloud-elements.com) 
+For more information on how to use Cloud Elements, see our [help center](https://docs.cloud-elements.com)
 or our [support page](https://support.cloud-elements.com/hc/en-us).
-
-For support, contact us at [dev-experience@cloud-elements.com](mailto:dev-experience@cloud-elements.com).

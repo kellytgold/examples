@@ -4,7 +4,5 @@ The recommended way to monitor the health of an element is to create a formula. 
 
 A flowchart describing the formula can be found [here](Flowchart-HealthCheck.html).
 
-For more information on how to use Cloud Elements, see our [developer portal](https://developers.cloud-elements.com) 
+For more information on how to use Cloud Elements, see our [help center](https://docs.cloud-elements.com)
 or our [support page](https://support.cloud-elements.com/hc/en-us).
-
-For support, contact us at [dev-experience@cloud-elements.com](mailto:dev-experience@cloud-elements.com).
