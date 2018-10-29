@@ -1,4 +1,4 @@
-# ce-examples
+# examples
 A collection of simple examples on how to use Cloud Elements.
 
 The examples are organized by type:
