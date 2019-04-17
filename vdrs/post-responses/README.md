@@ -1,4 +1,4 @@
-#VDR Transformation of POST Responses.
+# VDR Transformation of POST Responses.
 
 This is an example of how you can use JS to force your POST responses to be tranformed through your VDR. Currently you can use the 'fromVendor' boolean to determnine if data is coming from the User or the vendor. This JS takes that concept a few steps further. This example was created using an instance of Hubspot CRM. 
 
