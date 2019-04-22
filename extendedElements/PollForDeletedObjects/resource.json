@@ -1,0 +1,125 @@
+    {
+        "description": "Find deleted records from Zoho for the modules that support the /deleted endpoint.",
+        "path": "/hubs/crm/{objectName}/deleted",
+        "vendorPath": "/{objectName}/deleted",
+        "method": "GET",
+        "vendorMethod": "GET",
+        "parameters": [
+            {
+                "id": 439626,
+                "resourceId": 208734,
+                "createdDate": "2019-04-15T22:11:17Z",
+                "updatedDate": "2019-04-16T17:24:59Z",
+                "name": "objectName",
+                "vendorName": "objectName",
+                "description": "The Zoho Module/Object name. Supported values are leads, accounts, contacts, deals, campaigns, tasks, cases, events, calls, solutions, products, vendors, pricebooks, quotes, salesorders, purchaseorders, invoices, custom, and notes.",
+                "type": "path",
+                "vendorType": "path",
+                "dataType": "string",
+                "vendorDataType": "string",
+                "source": "request",
+                "required": false
+            },
+            {
+                "id": 439625,
+                "resourceId": 208734,
+                "createdDate": "2019-04-15T22:11:17Z",
+                "updatedDate": "2019-04-16T17:24:59Z",
+                "name": "page",
+                "vendorName": "page",
+                "description": "The start page for pagination, which defaults to 1 if not supplied",
+                "type": "query",
+                "vendorType": "query",
+                "dataType": "integer",
+                "vendorDataType": "integer",
+                "source": "request",
+                "required": false
+            },
+            {
+                "id": 439624,
+                "resourceId": 208734,
+                "createdDate": "2019-04-15T22:11:17Z",
+                "updatedDate": "2019-04-16T17:24:59Z",
+                "name": "pageSize",
+                "vendorName": "per_page ",
+                "description": "The page size for pagination, which defaults to 200 if not supplied",
+                "type": "query",
+                "vendorType": "query",
+                "dataType": "integer",
+                "vendorDataType": "integer",
+                "source": "request",
+                "required": false
+            }
+        ],
+        "model": {
+            "name": "deleted",
+            "transform": false,
+            "swagger": {
+                "deleted": {
+                    "properties": {
+                        "created_by": {
+                            "type": "deletedCreated_by"
+                        },
+                        "deleted_by": {
+                            "type": "deletedDeleted_by"
+                        },
+                        "deleted_time": {
+                            "format": "date-time",
+                            "type": "string",
+                            "x-mask": "yyyy-MM-dd'T'HH:mm:ssZ",
+                            "x-samplevalue": "2019-04-15T16:41:30+05:30"
+                        },
+                        "display_name": {
+                            "type": "string",
+                            "x-samplevalue": "Sample"
+                        },
+                        "id": {
+                            "type": "string",
+                            "x-samplevalue": "12000000600001"
+                        },
+                        "type": {
+                            "type": "string",
+                            "x-samplevalue": "recycle"
+                        }
+                    },
+                    "title": "deleted"
+                },
+                "deletedDeleted_by": {
+                    "properties": {
+                        "id": {
+                            "type": "string",
+                            "x-samplevalue": "12000000071001"
+                        },
+                        "name": {
+                            "type": "string",
+                            "x-samplevalue": "Person Name"
+                        }
+                    },
+                    "title": "deleted_by",
+                    "type": "object"
+                },
+                "deletedCreated_by": {
+                    "properties": {
+                        "id": {
+                            "type": "string",
+                            "x-samplevalue": "12000000071001"
+                        },
+                        "name": {
+                            "type": "string",
+                            "x-samplevalue": "Person Name"
+                        }
+                    },
+                    "title": "created_by",
+                    "type": "object"
+                }
+            }
+        },
+        "type": "api",
+        "rootKey": "data",
+        "hooks": [],
+        "response": {
+            "contentType": "application/json"
+        },
+        "kind": "eb",
+        "modelMigrated": true
+    }
